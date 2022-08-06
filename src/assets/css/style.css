@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+
+:root {
+  --primary: rgb(53, 28, 4);
+
+}
+
+
+* {
+  box-sizing: border-box;
+  outline: 0;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1 {
+  padding: 6px;
+  border: 1px;
+  border-color: rgba(255, 255, 255, 0.2);
+  border-style: groove;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+
+.container {
+  background-color: black;
+  margin-top: 40px;
+  padding: 20px 10px;
+  border-radius: 10px;
+}
+
+
+/*
+form input {
+  font-size: 24px;
+  height: 50px;
+  padding: 0 20px;
+  color: black;
+}
+
+form input:focus {
+  outline: 1px solid rgb(0, 247, 255);
+}
+
+form button {
+  border: none;
+  background-color: black;
+  margin-top: 15px;
+  padding: 40px;
+} */
+
+form label {
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+form input {
+  width: 40px;
+  color: white;
+  margin-left: 9px;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  border: 0px;
+
+}
+
+form button {
+  margin-top: 0px;
+}
+
+form {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+
+}
+
+.check-option-password {
+  font-size: 17px;
+  position: relative;
+  margin-top: 0px;
+  margin-right: 50px;
+  left: 30px;
+
+}
+
+.form-check-input {
+  width: 70px !important;
+  height: 25px !important;
+
+  margin-left: -80px !important;
+  color: black !important;
+  border-color: cyan !important;
+}
+
+hr {
+  width: 100%;
+  margin: 20px 0px;
+  color: white;
+}
+
+.senha-gerada {
+  border: 4px;
+  border-color: cyan;
+  width: 100%;
+  font-size: 10px !important;
+}
+
+.senha-gerada input {
+  width: 100%;
+  text-align: center;
+  font-size: 30px;
+  background-color: black;
+  border: 0px;
+  margin-bottom: 20px;
+}

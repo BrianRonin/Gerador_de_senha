@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+   <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="bg-dark">
+
+   <div class="container" style="max-width: 600px;">
+      <h1>Gerador de senhas</h1>
+      <div class="senha-gerada">
+         <input id="output-senha" type="text" value="23G@g2@!" class="">
+      </div>
+      <form action="">
+         <div>
+            <label class="" for="n-char">
+               Quantidade de caracteres
+            </label>
+            <input class="bg-dark" maxlength="2" type="number" value="8" id="n-char" min="3" max="30">
+         </div>
+         <hr>
+         <div class="check-option-password">
+            <div class="form-check form-switch">
+               <input class="form-check-input bg-dark" type="checkbox" id="add-number" checked>
+               <label class="form-check-label" for="add-number">Adicionar números</label>
+            </div>
+            <div class="form-check form-switch">
+               <input class="form-check-input bg-dark" type="checkbox" id="add-Lma" checked>
+               <label class="form-check-label" for="add-Lma">Letras maiúsculas</label>
+            </div>
+            <div class="form-check form-switch">
+               <input class="form-check-input bg-dark" type="checkbox" id="add-Lmi" checked>
+               <label class="form-check-label" for="add-Lmi">Letras minúsculas</label>
+            </div>
+            <div class="form-check form-switch">
+               <input class="form-check-input bg-dark" type="checkbox" id="add-Symbol" checked>
+               <label class="form-check-label" for="add-Symbol">Símbolos</label>
+            </div>
+         </div>
+         <hr>
+
+         <button type="submit" class="btn btn-dark bg-dark w-100">Gerar</button>
+      </form>
+   </div>
+
+   <script src="./assets/js/bundle.js"></script>
+</body>
+
+</html>
